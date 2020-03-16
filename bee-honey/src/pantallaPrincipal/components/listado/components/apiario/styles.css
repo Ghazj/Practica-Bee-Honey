@@ -1,0 +1,28 @@
+.apiario{
+    width: 141px;
+    height: 120px;
+    background-color: yellow;
+    margin-bottom: 12.6px;
+}
+
+.name{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contenedorNoName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lastAct{
+    text-align: left;
+    font-size: 9px;
+    
+}
+
+.status{
+    align-self: flex-start;
+}

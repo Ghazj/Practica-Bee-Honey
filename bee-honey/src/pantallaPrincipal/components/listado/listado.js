@@ -1,14 +1,13 @@
 import React from 'react';
 import listaApiarios from './consultaListaDeApiarios.js';
 import Apiario from './components/apiario/apiario.js';
-
+import "./styles.css";
 
 function Listado(){
     return(
-        <>
-        <h2>Listado</h2>
+        <div className="listado">
         <Apiario listaApiarios={listaApiarios}/>
-        </>
+        </div>
     )
 }
 
