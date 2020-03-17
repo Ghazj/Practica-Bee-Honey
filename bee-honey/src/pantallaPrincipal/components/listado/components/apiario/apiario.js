@@ -1,5 +1,9 @@
 import React from 'react';
 import './styles.css';
+import okLogo from '../../../../../assets/statusOk.svg';
+import cautionLogo from '../../../../../assets/statusWrong.png';
+import refreshLogo from '../../../../../assets/refreshLogo.svg';
+
 class Apiario extends React.Component {
     render() {
         return (
@@ -8,8 +12,9 @@ class Apiario extends React.Component {
                     <div className="apiario">
                         <h3 className="name">{this.props.listaApiarios[index].name}</h3>
                         <div className="contenedorNoName">
+                            <img alt="Imagen Refresh" src={refreshLogo} className="refreshLogo"/>
                             <p className="lastAct">{this.props.listaApiarios[index].lastAct}</p>
-                            {this.props.listaApiarios[index].status === 'OK' ? <p className="status">Okey</p> : <p className="status">Mal</p>}
+                            {this.props.listaApiarios[index].status === 'OK' ? <img alt="Status ok logo" src={okLogo} className="okLogo"/> : <img alt="Status caution logo" src={cautionLogo}  className="cautionLogo"/>}
                         </div>
                     </div>
                 ))
