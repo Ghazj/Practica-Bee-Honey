@@ -6,7 +6,7 @@ class PantallaPrincipal extends React.Component{
     render(){
         return(
             <div>
-                <h1>home screen!</h1>
+                <h1>topBar</h1>
                 <Listado/>
             </div>
         );
