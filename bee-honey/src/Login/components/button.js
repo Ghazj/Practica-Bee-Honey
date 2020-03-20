@@ -4,9 +4,9 @@ import './login.css';
 function Button() {
   return (
     <div>
-      <Button>
+      <button>
         Ingresar
-      </Button>
+      </button>
     </div>
   );
 }
