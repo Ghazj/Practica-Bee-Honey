@@ -1,0 +1,41 @@
+.tittle{
+    color: #8c8c8c;
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-items: flex-end;
+   align-content: space-around;
+}
+.form{
+    flex-wrap: wrap;
+    margin: 5px;
+}
+  
+.form input {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+}
+  
+.button {
+    margin-top: 50%;
+    background-color: blue;
+    padding: 50%;
+}
+  
+.login {
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 150px 420px 150px ;
+    background-color: #FFFFFF;
+    width: 280px;
+    height: 323px;
+} 
