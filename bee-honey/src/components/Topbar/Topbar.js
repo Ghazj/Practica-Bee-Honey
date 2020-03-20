@@ -6,7 +6,7 @@ import './Topbar.css';
 const topbar = props => (
     <header className="topbar">
         <nav className="topbar__navigation">
-            <div>
+            <div className="topbar__toggle-button">
                 <DrawerToggleButton click={props.drawerClickHandler} />
             </div>
             <div className="topbar__logo"><a href="/">The logo</a></div>

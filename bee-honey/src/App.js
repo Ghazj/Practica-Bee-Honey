@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'; 
 
 import Topbar from './components/Topbar/Topbar';
 import SideDrawer from './components/SideDrower/SideDrawer';
@@ -31,7 +31,9 @@ class App extends Component {
     <div style={{height: '100%'}}>
      <Topbar  drawerClickHandler={this.drawerToggleClickHandler} />
      <SideDrawer show={this.state.sideDrawerOpen} />
+
     {backdrop}
+    
      <main style={{marginTop: '64px'}}>
      <p>This is the page content!</p>
      </main>

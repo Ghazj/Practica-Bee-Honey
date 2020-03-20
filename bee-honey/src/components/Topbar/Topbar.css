@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    background: green;
+    background: grey;
     height: 56px;
 }
 
@@ -56,4 +56,14 @@
  .topbar_navigation-items { 
      display: none;
    }
+}
+
+@media (min-width: 768px) {
+    .topbar__toggle-button {
+        display: none;
+    }
+
+  .topbar__logo {
+        margin-left: 0;
+    }
 }
