@@ -1,8 +1,8 @@
 import React from 'react';
 import './pesoToday.css';
-import Img from './components/img/img.js';
-import Text from './components/text/text.js';
-import Peso from './components/peso/peso.js';
+import Img from './components/img/img.js.js.js.js';
+import Text from './components/text/text.js.js.js.js';
+import Peso from './components/peso/peso.js.js.js.js';
 
 function PesoToday() {
     return (

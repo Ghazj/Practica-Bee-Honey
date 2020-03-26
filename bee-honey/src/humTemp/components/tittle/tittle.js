@@ -2,7 +2,7 @@ import React from 'react';
 
 function Tittle() {
     return (
-        <p>Estimación de tu producción</p>
+        <p>Promedio de los últimos 30días</p>
     )
 }
 

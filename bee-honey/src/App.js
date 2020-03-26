@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Peso from './peso/peso.js';
+import humTemp from './humTemp/humTemp.js';
 
 function App() {
   return (
