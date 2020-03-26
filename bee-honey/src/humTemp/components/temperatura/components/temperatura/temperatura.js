@@ -1,5 +1,5 @@
 import React from 'react';
-import './peso.css';
+import './temperatura.css';
 
 function Peso() {
     return (

@@ -1,10 +1,10 @@
 import React from 'react';
-import './peso.css';
+import './humedad.css';
 
-function Peso() {
+function Humedad() {
     return (
         <h1 className="pesoTodayNum">5kg</h1>
     )
 }
 
-export default Peso;
+export default Humedad;
