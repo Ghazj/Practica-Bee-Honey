@@ -3,7 +3,7 @@ import './temperatura.css';
 
 function Peso() {
     return (
-        <h1 className="pesoCosechaNum">25kg</h1>
+        <h1 className="pesoCosechaNum">17°C</h1>
     )
 }
 

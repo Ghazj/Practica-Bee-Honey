@@ -3,7 +3,7 @@ import './humedad.css';
 
 function Humedad() {
     return (
-        <h1 className="pesoTodayNum">5kg</h1>
+        <h1 className="pesoTodayNum">30%</h1>
     )
 }
 

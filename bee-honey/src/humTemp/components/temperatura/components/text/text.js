@@ -3,7 +3,7 @@ import './text.css';
 
 function Text(){
     return(
-        <p className="text">Al día de la cosecha</p>
+        <p className="text">Temperatura</p>
     )
 }
 
