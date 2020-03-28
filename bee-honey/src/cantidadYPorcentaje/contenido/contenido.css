@@ -11,7 +11,6 @@
 }
 
  .barras{
-    position: relative;
     display: flex;
     flex-direction: column;
     padding-left: 40px;
@@ -19,6 +18,7 @@
 }
 
 .barraBase{
+    position: relative;
     text-align: center;
     background-color: gray;
     height: 12px;
@@ -29,7 +29,7 @@
     position: absolute;
     background-color: gold;
     height: 12px;
-    width: 33%;
+    width: 50%;
     border-radius: 6px;
     align-self: flex-start;
 }

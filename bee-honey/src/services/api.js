@@ -6,7 +6,7 @@ let detalleApiario = {
     last_weight: "20.4kg",
     production_prediction: "10.4kg",
     beehives_count: 30,
-    beehoney_count: 10,
+    beehoney_count: 13,
     average_humidity: "50%",
     average_temp: "20° C",
     observations: [

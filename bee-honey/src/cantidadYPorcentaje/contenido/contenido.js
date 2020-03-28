@@ -21,8 +21,8 @@ class Contenido extends React.Component {
                     <p>{this.state.cantidadDeColmenasInteligentes} Conectadas</p>
                 </div>
                 <div className="barras">
-                    <div className="barraBase" />
-                    <div className="barraPorcentaje" />
+                    <div className="barraBase"><div className="barraPorcentaje" style={{width:String(this.porcentaje(this.state.cantidadDeColmenas, this.state.cantidadDeColmenasInteligentes))+'%'}} /></div>
+                    
                 </div>
                 <h2 className="porcentajeText">El {this.porcentaje(this.state.cantidadDeColmenas, this.state.cantidadDeColmenasInteligentes)}% de tu apiario<br />está conectado</h2>
                 <p className="lastText">En base a esto se estima los valores generales.</p>
