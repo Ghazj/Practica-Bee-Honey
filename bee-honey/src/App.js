@@ -1,24 +1,11 @@
 
 import React from 'react';
 import './App.css';
-import PantallaPrincipal from './pantallaPrincipal/pantallaPrincipal.js';
-
-function App() {
-
-
-  return (
-    <div className="App">
-      
-        <PantallaPrincipal/>
-      
-    </div>
-  );
-
+///////// Components Screens //////////
 import Login from './screens/Login/login.js';
 import Topbar from './screens/principalScreen/components/Topbar/Topbar.js';
-
-
-
+import PantallaPrincipal from './screens/principalScreen/pantallaPrincipal.js';
+///////////////////////////////////////
 class App extends React.Component {
   state = {
     sideDrawerOpen: false
@@ -44,13 +31,12 @@ class App extends React.Component {
       <div className="App">
         <Login />
         <Topbar />
-      
-
+        <PantallaPrincipal />
       </div>
     )
   }
 
 }
 
-export default App; 
+export default App;
 /* anda a pantalla principal */

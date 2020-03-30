@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.css';
-import okLogo from '../../../../../assets/statusOk.svg';
-import cautionLogo from '../../../../../assets/statusWrong.png';
-import refreshLogo from '../../../../../assets/refreshLogo.svg';
+import okLogo from '../../../../../../assets/statusOk.svg';
+import cautionLogo from '../../../../../../assets/statusWrong.png';
+import refreshLogo from '../../../../../../assets/refreshLogo.svg';
 
 class Apiario extends React.Component {
     render() {
