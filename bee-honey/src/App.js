@@ -1,6 +1,19 @@
 
 import React from 'react';
 import './App.css';
+import PantallaPrincipal from './pantallaPrincipal/pantallaPrincipal.js';
+
+function App() {
+
+
+  return (
+    <div className="App">
+      
+        <PantallaPrincipal/>
+      
+    </div>
+  );
+
 import Login from './screens/Login/login.js';
 import Topbar from './screens/principalScreen/components/Topbar/Topbar.js';
 
@@ -31,10 +44,13 @@ class App extends React.Component {
       <div className="App">
         <Login />
         <Topbar />
+      
 
       </div>
     )
   }
+
 }
 
-export default App;
+export default App; 
+/* anda a pantalla principal */

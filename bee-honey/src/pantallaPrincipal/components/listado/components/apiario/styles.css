@@ -1,0 +1,58 @@
+.apiario{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 141px;
+    height: 120px;
+    background-color: yellow;
+    margin-bottom: 12.6px;
+    padding: 10px;
+}
+
+.name{
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    height: 10px;
+}
+
+.contenedorNoName{
+    height: 100%;
+    position: relative;
+    margin-top: 32%;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.lastAct{
+    position: absolute;
+    top: 26%;
+    right: 53%;
+    font-size: 9px;
+    align-self: flex-end;
+}
+
+.status{
+}
+
+.refreshLogo{
+    align-self: flex-end;
+    width: 18px;
+    height: 16px;
+    rotate: 50%;
+}
+
+.okLogo{
+    align-self: flex-end;
+    width: 18px;
+    height: 16px;
+}
+
+.cautionLogo{
+    align-self: flex-end;
+    width: 18px;
+    height: 16px;
+}
