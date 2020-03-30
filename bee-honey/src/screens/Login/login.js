@@ -1,8 +1,8 @@
 import React from "react";
 import './login.css';
-import Form from './form.js';
-import Tittle from './tittle.js';
-import Button from './button.js';
+import Form from './components/form.js';
+import Tittle from './components/tittle.js';
+import Button from './components/button.js';
 
 function Login() {
    return (
