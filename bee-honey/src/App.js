@@ -3,6 +3,8 @@ import './App.css';
 import PantallaPrincipal from './pantallaPrincipal/pantallaPrincipal.js';
 
 function App() {
+
+
   return (
     <div className="App">
       
@@ -12,4 +14,5 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
+/* anda a pantalla principal */
