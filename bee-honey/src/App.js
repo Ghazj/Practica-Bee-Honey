@@ -3,7 +3,6 @@ import React from 'react';
 import './App.css';
 ///////// Components Screens //////////
 import Login from './screens/Login/login.js';
-import Topbar from './screens/principalScreen/components/Topbar/Topbar.js';
 import PantallaPrincipal from './screens/principalScreen/pantallaPrincipal.js';
 ///////////////////////////////////////
 class App extends React.Component {
@@ -30,7 +29,6 @@ class App extends React.Component {
     return (
       <div className="App">
         <Login />
-        <Topbar />
         <PantallaPrincipal />
       </div>
     )
