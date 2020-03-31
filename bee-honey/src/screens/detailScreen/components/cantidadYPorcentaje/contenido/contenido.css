@@ -1,0 +1,48 @@
+.section{
+    text-align: center;
+}
+
+.countContent{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+ .barras{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.barraBase{
+    position: relative;
+    text-align: center;
+    background-color: gray;
+    height: 12px;
+    border-radius: 6px;
+}
+
+.barraPorcentaje{
+    position: absolute;
+    background-color: gold;
+    height: 12px;
+    width: 50%;
+    border-radius: 6px;
+    align-self: flex-start;
+}
+
+.cantidadEInteligentesText{
+    font-size: 12px;
+}
+
+.porcentajeText{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.lastText{
+    font-size: 10px;
+}
