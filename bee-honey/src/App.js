@@ -1,5 +1,18 @@
 import React from 'react';
 import './App.css';
+
+import HumTemp from './humTemp/humTemp.js';
+
+import Login from './screens/Login/login.js';
+
+
+function App() {
+  return (
+    <div className="App">
+      <HumTemp />
+    </div>
+  );
+
 ///////// Components Screens //////////
 import Login from './screens/Login/login.js';
 import PantallaPrincipal from './screens/principalScreen/pantallaPrincipal.js';
@@ -35,8 +48,6 @@ class App extends React.Component {
       </div>
     )
   }
-
-
 }
 
 export default App;
