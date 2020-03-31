@@ -1,6 +1,6 @@
 import React from 'react';
 import './notesList.css';
-import listaDeNotas from '../../../../comentarios/listaDeNotas.js';
+import listaDeNotas from '../../../../../../services/listaDeNotas.js';
 
 function NotesList() {
     return (
@@ -10,7 +10,7 @@ function NotesList() {
                     <p className="date">{listaDeNotas[index].date}</p>
                     <div className="buttonAndTextComment">
                         <p className="text">{listaDeNotas[index].text}</p>
-                        <button className="button"></button>
+                        <button className="buttonComment"></button>
                     </div>
                 </div>
             ))}
