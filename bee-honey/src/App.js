@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import CantidadYPorcentaje from './cantidadYPorcentaje/cantidadYPorcentaje.js';
 
 import HumTemp from './humTemp/humTemp.js';
 
@@ -9,7 +10,9 @@ import Login from './screens/Login/login.js';
 function App() {
   return (
     <div className="App">
+      <CantidadYPorcentaje/>
       <HumTemp />
+
     </div>
   );
 
