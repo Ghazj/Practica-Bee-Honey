@@ -1,6 +1,18 @@
 
 import React from 'react';
 import './App.css';
+
+import Peso from './peso/peso.js';
+
+function App() {
+  return (
+    <div className="App">
+
+      <Peso />
+
+    </div>
+  );
+
 ///////// Components Screens //////////
 import Login from './screens/Login/login.js';
 import PantallaPrincipal from './screens/principalScreen/pantallaPrincipal.js';
@@ -34,7 +46,7 @@ class App extends React.Component {
     )
   }
 
+
 }
 
 export default App;
-/* anda a pantalla principal */
