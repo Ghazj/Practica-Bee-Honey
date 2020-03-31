@@ -1,3 +1,4 @@
+
 let detalleApiario = {
 
     name: "La tranquilidad",
@@ -34,3 +35,12 @@ let detalleApiario = {
 }
 
 export default detalleApiario;
+
+// import {create} from 'apisauce';
+
+// const api = create({
+//     baseURL: 'https://api.xaviaiot.com/bee_honey'
+// });
+
+// export default api;
+

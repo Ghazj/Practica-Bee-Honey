@@ -1,0 +1,13 @@
+.topBar {
+    position: relative; 
+    width: 100vw;
+    background: grey;
+    height: 56px;
+}
+
+.barraDeBusqueda{
+    background-color:white;   
+    width: 100px;    
+    height: 10px;    
+    border: 1px solid red;
+}
