@@ -4,7 +4,7 @@ import Tittle from './components/tittle/tittle.js';
 import Humedad from './components/humedad/humedad.js';
 import Temperatura from './components/temperatura/temperatura.js';
 
-function Peso() {
+function HumTemp() {
     return (
         <div className="peso">
             <Tittle />
@@ -16,4 +16,4 @@ function Peso() {
     )
 }
 
-export default Peso;
+export default HumTemp;
