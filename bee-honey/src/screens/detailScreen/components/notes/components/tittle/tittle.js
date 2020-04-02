@@ -3,7 +3,7 @@ import './tittle.css';
 
 function Tittle(){
     return(
-        <h2 className="tittle">Notas</h2>
+        <h2 className="tittleNotes">Notas</h2>
     )
 }
 

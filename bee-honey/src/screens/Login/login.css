@@ -1,5 +1,5 @@
  
-.tittle{
+.tittleLogin{
     color: #8c8c8c;
     margin-top: 30px;
     text-align: center;
@@ -11,7 +11,7 @@
    align-content: space-around;
  }
   
- .form{
+ .formLogin{
     flex-wrap: wrap;
     margin: 5px;
  }

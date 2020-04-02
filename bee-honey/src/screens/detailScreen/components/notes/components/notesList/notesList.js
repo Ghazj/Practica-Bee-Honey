@@ -9,7 +9,7 @@ function NotesList() {
                 <div key={listaDeNotas[index].id} className="note">
                     <p className="date">{listaDeNotas[index].date}</p>
                     <div className="buttonAndTextComment">
-                        <p className="text">{listaDeNotas[index].text}</p>
+                        <p className="textComment">{listaDeNotas[index].text}</p>
                         <button className="buttonComment"></button>
                     </div>
                 </div>

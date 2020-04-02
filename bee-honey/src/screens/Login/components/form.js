@@ -3,7 +3,7 @@ import '../login.css';
 
 function Form() {
   return (
-    <div className="form">
+    <div className="formLogin">
       <form>
         <label>
           <input id="usua" type="text" placeholder="Usuario" />

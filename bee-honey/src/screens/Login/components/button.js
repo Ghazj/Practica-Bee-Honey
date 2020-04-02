@@ -3,11 +3,9 @@ import '../login.css';
 
 function Button() {
   return (
-    <div>
-      <button>
-        Ingresar
+    <button>
+      Ingresar
       </button>
-    </div>
   );
 }
 
