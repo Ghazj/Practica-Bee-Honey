@@ -1,0 +1,15 @@
+.topBarDeleteModal{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonsContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.infoContent{
+    display: flex;
+    flex-direction: row;
+}
