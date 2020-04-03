@@ -1,8 +1,10 @@
-.topBarPrincipalScrren {
-    position: relative; 
-    width: 100vw;
-    background: grey;
-    height: 56px;
+.topBarPrincipalScreen {
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-around;  
+    height: 55px;  
+    width: 100%;
+    align-items: center;
 }
 
 .barraDeBusqueda{

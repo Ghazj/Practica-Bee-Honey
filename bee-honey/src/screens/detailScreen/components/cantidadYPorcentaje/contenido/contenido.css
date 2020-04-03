@@ -20,7 +20,7 @@
 .barraBase{
     position: relative;
     text-align: center;
-    background-color: gray;
+    background-color: black;
     height: 12px;
     border-radius: 6px;
 }

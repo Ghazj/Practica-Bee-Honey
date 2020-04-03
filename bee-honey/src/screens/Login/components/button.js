@@ -3,7 +3,7 @@ import '../login.css';
 
 function Button() {
   return (
-    <button>
+    <button className="buttonLogin">
       Ingresar
       </button>
   );

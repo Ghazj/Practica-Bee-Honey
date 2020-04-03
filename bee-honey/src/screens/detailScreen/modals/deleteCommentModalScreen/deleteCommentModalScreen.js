@@ -7,10 +7,8 @@ class DeleteCommentModalScreen extends React.Component {
     render() {
         return (
             <div className='deleteCommentModalScreen'>
-                <p>
-                    <TopBarDeleteModal/>
-                    <CommentForErase/>
-            </p>
+                <TopBarDeleteModal />
+                <CommentForErase />
             </div>
         )
     }

@@ -1,12 +1,13 @@
 .topBarDeleteModal{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .buttonsContent{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .infoContent{
