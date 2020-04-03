@@ -1,11 +1,12 @@
 import React from 'react';
+import '../../topBarDeleteModal.css';
 
 function pesoTotalDeleteModal() {
-    return(
-        <>
-        <h3>50kg</h3>
-        <p>Peso total</p>
-        </>
+    return (
+        <div className="infoColumn">
+            <h3>50kg</h3>
+            <p className="textTopBarDeleteModal">Peso total</p>
+        </div>
     )
 }
 

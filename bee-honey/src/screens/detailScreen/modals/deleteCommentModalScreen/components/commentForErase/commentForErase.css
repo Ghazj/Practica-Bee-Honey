@@ -1,5 +1,8 @@
 .commentForErase{
     background-color: #ffffff;
-    width: 100vw;
-    height: 25vh;
+    padding: 20px;
+}
+
+.commentForEraseName{
+    text-align: justify;
 }

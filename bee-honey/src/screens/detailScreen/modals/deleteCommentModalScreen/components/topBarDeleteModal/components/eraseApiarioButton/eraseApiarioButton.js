@@ -1,8 +1,9 @@
 import React from 'react';
+import './eraseApiarioButton.css';
 
 function eraseApiarioButton() {
-    return(
-        <button/>
+    return (
+        <button className="eraseApiarioButton" />
     )
 }
 

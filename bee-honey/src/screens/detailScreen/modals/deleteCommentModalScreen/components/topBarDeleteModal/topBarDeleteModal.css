@@ -12,4 +12,14 @@
 .infoContent{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+}
+
+.infoColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.textTopBarDeleteModal{
+    margin-top: 0;
 }
