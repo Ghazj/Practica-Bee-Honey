@@ -6,7 +6,7 @@ import CommentForErase from './components/commentForErase/commentForErase';
 class DeleteCommentModalScreen extends React.Component {
     render() {
         return (
-            <div className='deleteCommentModalScreen'>
+            <div className='deleteCommentModalScreen' style={{ display: this.props.DeleteModalIs }}>
                 <TopBarDeleteModal />
                 <CommentForErase />
             </div>

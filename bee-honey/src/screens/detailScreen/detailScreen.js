@@ -6,14 +6,22 @@ import Notes from './components/notes/notes.js';
 import DeleteCommentModalScreen from './modals/deleteCommentModalScreen/deleteCommentModalScreen.js';
 
 class DetailScreen extends React.Component {
+    state = {
+        addCommentModal:'none', DeleteModalIs:'none'
+    }
+
+    openDeleteModal = () =>{
+        this.setState({DeleteModalIs:'inline'})
+    }
+
     render() {
         return (
             <>
                 <Peso />
                 <HumTemp />
                 <CantidadYPorcentaje />
-                <Notes />
-                <DeleteCommentModalScreen/>
+                <Notes openDeleteModal={this.openDeleteModal}/>
+                <DeleteCommentModalScreen DeleteModalIs={this.state.DeleteModalIs}/>
             </>
         )
     }

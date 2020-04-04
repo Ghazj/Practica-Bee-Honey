@@ -1,4 +1,5 @@
 import React from 'react';
+import { Switch, Route } from "react-router-dom";
 import './App.css';
 ///////// Components Screens //////////
 import Login from './screens/Login/login.js';
@@ -11,9 +12,11 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Login />
-        <PantallaPrincipal />
-        <DetailScreen />
+        <Switch>
+          <Route exact path="/" component={Login} />
+          <Route path="/principalScreen" component={PantallaPrincipal} />
+          <Route path="/detailScreen" component={DetailScreen} />
+        </Switch>
       </div>
     )
   }
