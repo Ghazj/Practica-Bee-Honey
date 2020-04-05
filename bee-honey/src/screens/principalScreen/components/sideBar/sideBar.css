@@ -1,0 +1,11 @@
+.sideBar{
+    position: absolute;
+    left: 0;
+    z-index: +2;
+    width: 200px;
+    background: white;
+}
+
+button{
+    width: 150px;
+}

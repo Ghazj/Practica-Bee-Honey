@@ -7,7 +7,7 @@ class DeleteCommentModalScreen extends React.Component {
     render() {
         return (
             <div className='deleteCommentModalScreen' style={{ display: this.props.DeleteModalIs }}>
-                <TopBarDeleteModal />
+                <TopBarDeleteModal CloseDeleteModal={this.props.CloseDeleteModal}/>
                 <CommentForErase />
             </div>
         )

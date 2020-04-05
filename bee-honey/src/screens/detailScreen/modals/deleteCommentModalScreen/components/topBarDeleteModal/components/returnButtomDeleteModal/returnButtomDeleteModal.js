@@ -1,9 +1,9 @@
 import React from 'react';
 import './returnButtomDeleteModal.css';
 
-function ReturnButtonDeleteModal() {
+function ReturnButtonDeleteModal(props) {
     return (
-        <button className="returnButtonDeleteModal" />
+        <button className="returnButtonDeleteModal" onClick={props.CloseDeleteModal} />
     )
 }
 

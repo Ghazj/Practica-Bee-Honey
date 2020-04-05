@@ -8,11 +8,11 @@ import MielFinalDeleteModal from './components/mielFinalDeleteModal/mielFinalDel
 import HumedadDeleteModal from './components/humedadDeleteModal/humedadDeleteModal.js';
 import TemperaturaDeleteModal from "./components/temperaturaDeleteModal/temperaturaDeleteModal.js";
 
-function TopBarDeleteModal() {
+function TopBarDeleteModal(props) {
     return (
         <div className="topBarDeleteModal">
             <div className="buttonsContent">
-                <ReturnButtonDeleteModal />
+                <ReturnButtonDeleteModal CloseDeleteModal={props.CloseDeleteModal} />
                 <ApiarioNameDeleteModal />
                 <EraseApiarioButtom />
             </div>
