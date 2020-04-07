@@ -1,49 +1,24 @@
 .toolbar {
-    position: fixed;
-    top: 0;
-    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
     width: 100%;
-    background: gray;
     height: 150px;
+    background: gray;
 }
 
-.toolbar__navegacion {
+.topBarTop{
     display: flex;
-    height: 100%;
-    align-items: center;
-    padding: 0 1rem;
+    flex-direction: row;
+
+    width: 100%;
+    height: 50%;
 }
 
-.toolbar__titulo  {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem; 
-    height: 100px;
-}
-
-.espacio {
-    flex: 1;
-}
-
-.toolbar_navegacion_item ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.topBarBot{
     display: flex;
-}
- 
-.toolbar__navegacion li {
-    padding: 0 0.2rem;
-}
-
-
-.toolbar__navegacion a {
-    color: white;
-    text-decoration: none;
-}
-
-
-.toolbar__titulo a:hover,
-.toolbar__titulo a:active {
-    color: orange;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 50%;
 }

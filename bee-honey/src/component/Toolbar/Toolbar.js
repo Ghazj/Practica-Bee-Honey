@@ -1,20 +1,19 @@
 import React from 'react';
-
 import './Toolbar.css';
 
-const toolbar = props => (
- <header className="toolbar"> 
-     <nav className="toolbar__navegacion">
-            <div></div>
-            <div className="toolbar__titulo"><a href="/">Apiario Zona Sur</a></div>
-            <div className="espacio" />
-       <div className="toolbar_navegacion_item"> 
-         <ul>
-            <li><a>a las 12:30</a></li>
-            <li><a>todo okey</a></li>
-         </ul>
-       </div>
-    </nav>
+const toolbar = () => (
+  <header className="toolbar">
+    <div className="topBarTop">
+      <button></button>
+      <h2>Titulo de apiario</h2>
+    </div>
+    <div className="topBarBot">
+      <img alt="" ></img>
+      <p>a las tantas h</p>
+      <p>|</p>
+      <img alt=""></img>
+      <p>todo ok</p>
+    </div>
   </header>
 );
 

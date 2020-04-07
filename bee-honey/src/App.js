@@ -5,9 +5,8 @@ function App() {
   return (
     <div className="App">
      <Toolbar />
-     <main style={{marginTop: '65px'}}>
        <p>Aqui van los apirarios</p>
-     </main>
+     
 
     </div>
   );
