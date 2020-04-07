@@ -1,0 +1,35 @@
+.toolbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    height: 150px;
+    background: gray;
+}
+
+.topBarTop{
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    height: 50%;
+}
+
+.topBarBot{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    height: 50%;
+}
+
+.refreshLogoDS{
+    width: 18px;
+    height: 16px;
+    rotate: 50%;
+}
+
+.statusLogoDS{
+    width: 18px;
+    height: 16px;
+}

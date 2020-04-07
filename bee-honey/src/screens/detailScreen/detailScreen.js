@@ -1,4 +1,5 @@
 import React from 'react';
+import TopBarDS from './components/topBarDS/topBarDS.js';
 import Peso from './components/peso/peso.js';
 import HumTemp from './components/humTemp/humTemp.js';
 import CantidadYPorcentaje from './components/cantidadYPorcentaje/cantidadYPorcentaje.js';
@@ -22,6 +23,7 @@ class DetailScreen extends React.Component {
     render() {
         return (
             <div className="principalScreen">
+                <TopBarDS/>
                 <Peso />
                 <HumTemp />
                 <CantidadYPorcentaje />
