@@ -6,11 +6,11 @@ function Form() {
     <div className="formLogin">
       <form>
         <label>
-          <input id="usua" type="text" placeholder="Usuario" />
+          <input id="usua" type="text" placeholder="Usuario" className="inputs" />
         </label>
         <br></br>
         <label>
-          <input id="password" type="password" placeholder="Contraseña" />
+          <input id="password" type="password" placeholder="Contraseña" className="inputs" />
         </label>
       </form>
     </div>

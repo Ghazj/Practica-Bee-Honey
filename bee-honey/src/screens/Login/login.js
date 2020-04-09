@@ -1,5 +1,6 @@
 import React from "react";
 import './login.css';
+import BeeHoneyLogo from './components/beeHoneyLogo.js';
 import Form from './components/form.js';
 import Tittle from './components/tittle.js';
 import Button from './components/button.js';
@@ -9,6 +10,7 @@ function Login() {
   return (
     <div className="login">
       <div className="loginContent">
+        <BeeHoneyLogo/>
         <Tittle />
         <Form />
         <Button />
