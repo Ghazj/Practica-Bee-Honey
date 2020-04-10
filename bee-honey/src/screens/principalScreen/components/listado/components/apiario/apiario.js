@@ -10,8 +10,8 @@ class Apiario extends React.Component {
         return (
             <>
                 {this.props.listaApiarios.map((currApiario, index) => (
-                    <Link to="/detailScreen">
-                        <div className="apiario" key={index}>
+                    <Link to="/detailScreen" key={index}>
+                        <div className="apiario" >
                             <h3 className="name">{this.props.listaApiarios[index].name}</h3>
                             <div className="contenedorNoName">
                                 <img alt="Imagen Refresh" src={refreshLogo} className="refreshLogo" />
