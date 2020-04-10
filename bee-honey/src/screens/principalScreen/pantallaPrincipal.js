@@ -2,6 +2,7 @@ import React from 'react';
 import Listado from './components/listado/listado.js';
 import TopBar from './components/Topbar/Topbar.js';
 import SideBar from './components/sideBar/sideBar.js';
+import './pantallaPrincipal.css';
 //import { fetchApario } from '../../services/apiariosService.js';
 
 class PantallaPrincipal extends React.Component {
@@ -10,7 +11,11 @@ class PantallaPrincipal extends React.Component {
     }
 
     openSideBar = () => {
-        this.setState({ SideBarIs: 'inline' })
+        if (this.state.SideBarIs === 'none'){
+            this.setState({ SideBarIs: 'inline' })
+        }else{
+            this.setState({SideBarIs: 'none'})
+        }
     }
 
     hideSideBar = () => {

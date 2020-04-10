@@ -1,15 +1,18 @@
 .topBarPrincipalScreen {
+    position: relative;
     display: flex;
-    flex-direction: row;   
-    justify-content: space-around;  
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
     height: 55px;  
     width: 100%;
-    align-items: center;
+    background-color: rgb(209, 209, 209);
 }
 
 .barraDeBusqueda{
+    position: absolute;
+    left: 25%;
     background-color:white;   
-    width: 100px;    
-    height: 10px;    
-    border: 1px solid red;
+    width: 50%;    
+    height: 30%;
 }

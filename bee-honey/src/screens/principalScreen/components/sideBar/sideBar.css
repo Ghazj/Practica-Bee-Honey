@@ -2,10 +2,16 @@
     position: absolute;
     left: 0;
     z-index: +2;
-    width: 200px;
-    background: white;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.856);
+    height: 100%;
 }
 
 button{
     width: 150px;
+}
+
+.ul{
+    width: 0;
+    margin-left: 19%;
 }
