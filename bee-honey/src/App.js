@@ -6,6 +6,8 @@ import Login from './screens/Login/login.js';
 import PantallaPrincipal from './screens/principalScreen/pantallaPrincipal.js';
 import DetailScreen from './screens/detailScreen/detailScreen.js';
 ///////////////////////////////////////
+import ReturnLogo from './assets/returnButton.js';
+import ReturnButton from './assets/returnButton.js';
 
 class App extends React.Component {
 

@@ -26,6 +26,78 @@ const listaApiarios = [
         "beehoney_count": 12,
         lastAct: 98
     },
+    {
+        "name": "La hermosura",
+        "id": 25648,
+        "current_status": "NO_WEIGHT",
+        "last_weight": "18.3kg",
+        "beehives_count": 28,
+        "beehoney_count": 12,
+        lastAct: 98
+    },
+    {
+        "name": "La hermosura",
+        "id": 25648,
+        "current_status": "NO_WEIGHT",
+        "last_weight": "18.3kg",
+        "beehives_count": 28,
+        "beehoney_count": 12,
+        lastAct: 98
+    },
+    {
+        "name": "La hermosura",
+        "id": 25648,
+        "current_status": "NO_WEIGHT",
+        "last_weight": "18.3kg",
+        "beehives_count": 28,
+        "beehoney_count": 12,
+        lastAct: 98
+    },
+    {
+        "name": "La hermosura",
+        "id": 25648,
+        "current_status": "NO_WEIGHT",
+        "last_weight": "18.3kg",
+        "beehives_count": 28,
+        "beehoney_count": 12,
+        lastAct: 98
+    },
+    {
+        "name": "La hermosura",
+        "id": 25648,
+        "current_status": "NO_WEIGHT",
+        "last_weight": "18.3kg",
+        "beehives_count": 28,
+        "beehoney_count": 12,
+        lastAct: 98
+    },
+    {
+        "name": "La hermosura",
+        "id": 25648,
+        "current_status": "NO_WEIGHT",
+        "last_weight": "18.3kg",
+        "beehives_count": 28,
+        "beehoney_count": 12,
+        lastAct: 98
+    },
+    {
+        "name": "La hermosura",
+        "id": 25648,
+        "current_status": "NO_WEIGHT",
+        "last_weight": "18.3kg",
+        "beehives_count": 28,
+        "beehoney_count": 12,
+        lastAct: 98
+    },
+    {
+        "name": "La hermosura",
+        "id": 25648,
+        "current_status": "NO_WEIGHT",
+        "last_weight": "18.3kg",
+        "beehives_count": 28,
+        "beehoney_count": 12,
+        lastAct: 98
+    },
 ]
 
 

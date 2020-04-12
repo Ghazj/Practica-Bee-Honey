@@ -6,7 +6,7 @@ import './Topbar.css';
 const topbar = (props) => (
     <div className="topBarPrincipalScreen">
         <DrawerToggleButton OpenSideBar={props.OpenSideBar} />
-        <div className="barraDeBusqueda" />
+        <input className="barraDeBusqueda" />
     </div>
 );
 
