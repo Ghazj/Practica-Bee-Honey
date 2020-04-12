@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './tittle.css';
 function Tittle() {
     return (
-        <p>Estimación de tu producción</p>
+        <p className="pesoTitulo">Estimación de tu producción</p>
     )
 }
 

@@ -22,7 +22,7 @@ class DetailScreen extends React.Component {
 
     render() {
         return (
-            <div className="principalScreen">
+            <div className="detailScreen">
                 <TopBarDS/>
                 <Peso />
                 <HumTemp />

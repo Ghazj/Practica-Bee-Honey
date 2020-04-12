@@ -5,13 +5,37 @@
     width: 100%;
     background: rgba(0, 0, 0, 0.856);
     height: 100%;
+    animation-duration: 1s;
+    animation-name: sideBarOpen;
 }
 
-button{
-    width: 150px;
+.buttonSideBar{
+    width: 80%;
+    animation-duration: 0.5s;
+    animation-name: buttons;
 }
 
 .ul{
-    width: 0;
-    margin-left: 19%;
+ 
 }
+
+@keyframes sideBarOpen{
+  from {
+    height: 0%
+  }
+
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes buttons{
+    from { 
+        opacity: 0%;
+    }
+  
+    to {
+      opacity: 100%;
+    }
+  }
+  

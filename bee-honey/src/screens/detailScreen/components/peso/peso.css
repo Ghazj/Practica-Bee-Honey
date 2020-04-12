@@ -1,4 +1,9 @@
 .peso{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3%;
     background-color: white;
 }
 

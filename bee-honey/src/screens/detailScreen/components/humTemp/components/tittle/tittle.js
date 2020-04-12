@@ -1,8 +1,9 @@
 import React from 'react';
+import './tittle.css';
 
 function Tittle() {
     return (
-        <p>Promedio de los últimos 30 días</p>
+        <p className="humTempTitulo">Promedio de los últimos 30 días</p>
     )
 }
 

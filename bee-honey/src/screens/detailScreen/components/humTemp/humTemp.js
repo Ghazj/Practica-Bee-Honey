@@ -6,9 +6,9 @@ import Temperatura from './components/temperatura/temperatura.js';
 
 function HumTemp() {
     return (
-        <div className="peso">
+        <div className="humTemp">
             <Tittle />
-            <div className="pesos">
+            <div className="humTemps">
                 <Humedad />
                 <Temperatura />
             </div>
