@@ -1,5 +1,8 @@
 .section{
-    text-align: center;
+    text-align: center; 
+    background-color: white;
+    height: 180px;   
+    margin-bottom: 3%;
 }
 
 .countContent{
@@ -20,14 +23,14 @@
 .barraBase{
     position: relative;
     text-align: center;
-    background-color: black;
+    background-color: #d1d1d1;
     height: 12px;
     border-radius: 6px;
 }
 
 .barraPorcentaje{
     position: absolute;
-    background-color: gold;
+    background-color: #808080;
     height: 12px;
     width: 50%;
     border-radius: 6px;
@@ -45,4 +48,5 @@
 
 .lastText{
     font-size: 10px;
+    margin: 0;
 }

@@ -1,13 +1,14 @@
 .tittleLogin{
-    color: #8c8c8c;
-    margin-top: 40%;
     text-align: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-   justify-content: center;
-   align-items: flex-end;
-   align-content: space-around;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: space-around;
+    margin: 0;
+    font-size: x-large;
+    color: rgb(34, 34, 34);
 }
   
 .formLogin{
@@ -26,8 +27,10 @@
 }
   
 .buttonLogin {
-    margin-top: 10px;
-    width: 90%;
+    width: 80%;
+    height: 35px;
+    background-color: rgb(0, 89, 255);
+    color: white;
 }
 
 .terminos{
@@ -42,14 +45,25 @@
 .login {
     width: 100vw;
     height: 100vh;
-    background-color: gray;
+    background-color: transparent;
     display: flex;
    justify-content: center;
 } 
 
 .loginContent{
     background-color: white;
-    width: 90vw;
-    height: 50vh;
-    margin-top: 30%;
+    width: 90%;
+    height: 55%;
+    margin-top: 25%;
+}
+
+.logoLogin{
+    width: 165px;
+    margin-top: 8%;
+}
+
+.inputs{
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
