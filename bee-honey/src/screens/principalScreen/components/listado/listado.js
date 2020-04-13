@@ -1,12 +1,11 @@
 import React from 'react';
-import listaApiarios from '../../../../services/consultaListaDeApiarios.js';
 import Apiario from './components/apiario/apiario.js';
 import "./styles.css";
 
-function Listado(){
+function Listado(props){
     return(
         <div className="listado">
-        <Apiario listaApiarios={listaApiarios}/>
+        <Apiario ListadoDeApiarios={props.ListadoDeApiarios}/>
         </div>
     )
 }
