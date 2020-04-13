@@ -1,3 +1,3 @@
-// import api from './api.js';
+import api from './api.js';
 
-// export const fetchApario = () => api.get('/apiaries?beekeeper_id=xxx');
+export const fetchApario = () => api.get('/bee_honey/apiaries?beekeeper_id=420');

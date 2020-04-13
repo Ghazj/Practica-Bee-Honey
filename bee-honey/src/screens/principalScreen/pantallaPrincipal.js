@@ -4,6 +4,7 @@ import TopBar from './components/Topbar/Topbar.js';
 import SideBar from './components/sideBar/sideBar.js';
 import './pantallaPrincipal.css';
 //import { fetchApario } from '../../services/apiariosService.js';
+import { fetchApario } from '../../services/apiariosService.js';
 
 class PantallaPrincipal extends React.Component {
     state = {
@@ -19,23 +20,14 @@ class PantallaPrincipal extends React.Component {
     }
 
     hideSideBar = () => {
-        this.setState({SideBarIs: 'none'})
+        this.setState({ SideBarIs: 'none' })
     }
 
-    /* getApiariesList = async () => {
-         const res = await fetchApario();
-         console.log(res);
-     }
- 
-     componentDidMount() { this.getApiariesList(); }
- 
-     getApiariesList();
-    */
     render() {
         return (
             <div className="principalScreen">
-                <TopBar OpenSideBar={this.openSideBar}/>
-                <SideBar SideBarIs={this.state.SideBarIs} HideSideBar={this.hideSideBar}/>
+                <TopBar OpenSideBar={this.openSideBar} />
+                <SideBar SideBarIs={this.state.SideBarIs} HideSideBar={this.hideSideBar} />
                 <Listado />
             </div>
         );
