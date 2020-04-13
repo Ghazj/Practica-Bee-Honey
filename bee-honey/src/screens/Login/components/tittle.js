@@ -3,9 +3,7 @@ import '../login.css';
 
 function Tittle() {
    return (
-      <div>
-         <h1 className="tittle"> Beehoney </h1>
-      </div>
+      <h1 className="tittleLogin">Bienvenido</h1>
    );
 }
 

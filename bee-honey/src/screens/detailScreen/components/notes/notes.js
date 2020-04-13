@@ -3,11 +3,11 @@ import './notes.css';
 import NotesList from './components/notesList/notesList.js';
 import Tittle from './components/tittle/tittle.js';
 
-function Notes() {
+function Notes(props) {
     return (
         <div className="notesSection">
             <Tittle />
-            <NotesList />
+            <NotesList openDeleteModal={props.openDeleteModal} />
         </div>
     )
 }

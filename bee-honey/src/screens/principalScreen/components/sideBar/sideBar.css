@@ -1,0 +1,41 @@
+.sideBar{
+    position: absolute;
+    left: 0;
+    z-index: +2;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.856);
+    height: 100%;
+    animation-duration: 1s;
+    animation-name: sideBarOpen;
+}
+
+.buttonSideBar{
+    width: 80%;
+    animation-duration: 1s;
+    animation-name: buttons;
+}
+
+.ul{
+ 
+}
+
+@keyframes sideBarOpen{
+  from {
+    height: 0%
+  }
+
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes buttons{
+    from { 
+        opacity: 0%;
+    }
+  
+    to {
+      opacity: 100%;
+    }
+  }
+  
