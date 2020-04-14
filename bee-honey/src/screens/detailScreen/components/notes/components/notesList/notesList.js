@@ -3,27 +3,27 @@ import './notesList.css';
 import ReturnButton from '../../../../../../assets/returnButton.js';
 
 class NotesList extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props);
     }
 
-    componentDidMount(){
+    componentDidMount() {
     }
 
     render() {
         return (
             <div className="notes" >
-                {/* {
-                    Object.keys(props.hola).map((currentNote, index) => (
-                        <div key={props.hola[index].id} className="note">
-                            <p className="date">{props.hola[index].date}</p>
+                {
+                    this.props.notes !== undefined && this.props.notes.map((currentNote, index) => (
+                        <div key={this.props.notes[index].id} className="note">
+                            <p className="date">{this.props.notes[index].date}</p>
                             <div className="buttonAndTextComment">
-                                <p className="textComment">{props.hola[index].text}</p>
+                                <p className="textComment">{this.props.notes[index].text}</p>
                                 <ReturnButton styles={{ width: "7%", opacity: "66%" }} HandleClick={this.props.openDeleteModal} />
                             </div>
                         </div>
                     ))
-                } */}
+                }
             </div>
         )
     }

@@ -1,9 +1,9 @@
 import React from 'react';
 import './peso.css';
 
-function Peso() {
+function Peso(props) {
     return (
-        <h1 className="pesoCosechaNum">25kg</h1>
+    <h1 className="pesoCosechaNum">{props.productionPrediction}</h1>
     )
 }
 

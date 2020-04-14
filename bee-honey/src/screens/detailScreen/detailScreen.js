@@ -15,10 +15,10 @@ class DetailScreen extends React.Component {
 
     getApiariesList = async () => {
         const res = await fetchDetailApiario();
-        this.setState({ detalleDeApiario: res.data });
-        console.log(this.state.detalleDeApiario.observations);
+        this.setState({ detalleDeApiario: res.data })
+        console.log(this.state.detalleDeApiario)
     }
-    
+
     componentDidMount() {
         this.getApiariesList();
     }
@@ -35,10 +35,10 @@ class DetailScreen extends React.Component {
         return (
             <div className="detailScreen">
                 <TopBarDS apiarioName={this.state.detalleDeApiario.name} status={this.state.detalleDeApiario.current_status} />
-                <Peso />
+                <Peso lastWeight={this.state.detalleDeApiario.last_weight} productionPrediction={this.state.detalleDeApiario.production_prediction}/>
                 <HumTemp humedad={this.state.detalleDeApiario.average_humidity} temperatura={this.state.detalleDeApiario.average_temperature} />
                 <CantidadYPorcentaje colmenas={this.state.detalleDeApiario.beehives_count} colmenasConectadas={this.state.detalleDeApiario.beehoney_count} />
-                <Notes openDeleteModal={this.openDeleteModal} notes= {this.state.detalleDeApiario.observations} />
+                <Notes openDeleteModal={this.openDeleteModal} notes={this.state.detalleDeApiario.observations} />
                 <DeleteCommentModalScreen DeleteModalIs={this.state.DeleteModalIs} CloseDeleteModal={this.closeDeleteModal} />
             </div>
         )

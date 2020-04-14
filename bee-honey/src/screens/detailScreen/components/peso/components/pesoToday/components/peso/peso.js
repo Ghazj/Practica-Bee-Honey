@@ -1,9 +1,9 @@
 import React from 'react';
 import './peso.css';
 
-function Peso() {
+function Peso(props) {
     return (
-        <h1 className="pesoTodayNum">5kg</h1>
+        <h1 className="pesoTodayNum">{props.lastWeight}</h1>
     )
 }
 

@@ -6,17 +6,16 @@ import Tittle from './components/tittle/tittle.js';
 class Notes extends React.Component {
     constructor(props){
         super(props);
-        console.log(this)
     }
 
-    componentDidMount(){
-        console.log(this.props)
+    componentDidMount = async () => {
+        
     }
     render() {
         return (
             <div className="notesSection">
                 <Tittle />
-                {/* <NotesList openDeleteModal={this.props.openDeleteModal} hola={this.props.Hola} /> */}
+                <NotesList openDeleteModal={this.props.openDeleteModal} notes={this.props.notes} />
             </div>
         )
     }

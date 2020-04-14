@@ -7,6 +7,7 @@
     height: 100%;
     animation-duration: 1s;
     animation-name: sideBarOpen;
+    text-align: left;
 }
 
 .buttonSideBar{
@@ -16,7 +17,7 @@
 }
 
 .ul{
- 
+  padding-left: 17%;
 }
 
 @keyframes sideBarOpen{
