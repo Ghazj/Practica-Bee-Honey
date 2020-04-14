@@ -1,9 +1,9 @@
 import React from 'react';
 import Contenido from './contenido/contenido.js';
 
-function CantidadYPorcentaje() {
+function CantidadYPorcentaje(props) {
     return (
-        <Contenido />
+        <Contenido colmenas={props.colmenas} colmenasConectadas={props.colmenasConectadas}/>
     )
 }
 

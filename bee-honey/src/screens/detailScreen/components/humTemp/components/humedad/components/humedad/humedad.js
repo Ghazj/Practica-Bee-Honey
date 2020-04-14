@@ -1,9 +1,9 @@
 import React from 'react';
 import './humedad.css';
 
-function Humedad() {
+function Humedad(props) {
     return (
-        <h1 className="pesoTodayNum">30%</h1>
+        <h1 className="pesoTodayNum">{props.humedad}</h1>
     )
 }
 

@@ -6,7 +6,7 @@ import okLogo from '../../../../assets/statusOk.svg';
 import cautionLogo from '../../../../assets/statusWrong.png';
 import refreshLogo from '../../../../assets/refreshLogo.svg';
 
-const TopBarDS = () => (
+const TopBarDS = (props) => (
   <header className="toolbar">
     <div className="topBarButtonContent">
       <Link to="/principalScreen" className="linkTopBarDetailScreen" >
@@ -16,7 +16,7 @@ const TopBarDS = () => (
 
     <div className="topBarInfoContent">
       <div>
-        <h2 className="tittleDS">Titulo de apiario</h2>
+        <h2 className="tittleDS">{props.apiarioName}</h2>
       </div>
       <div className="infoContentDS">
         <div className="infoContentDS">
@@ -27,8 +27,7 @@ const TopBarDS = () => (
           <p>|</p>
         </div>
         <div className="infoContentDS">
-          <img alt="imagen status" src={okLogo} className="statusLogoDS" />
-          <p className="pes">Todo ok</p>
+          {props.status === 'OK' ? <><img alt="Status ok logo" src={okLogo} className="statusLogoDS" /> <p className="pes">Todo ok</p> </> : <><img alt="Status caution logo" src={cautionLogo} className="statusLogoDS" /> <p className="pes">Revisar</p></>}
         </div>
       </div>
     </div>

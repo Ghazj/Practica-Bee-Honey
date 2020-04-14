@@ -1,4 +1,5 @@
 import React from 'react';
+import { fetchDetailApiario } from '../../services/detalleDeApiarios.js';
 import TopBarDS from './components/topBarDS/topBarDS.js';
 import Peso from './components/peso/peso.js';
 import HumTemp from './components/humTemp/humTemp.js';
@@ -9,26 +10,36 @@ import './detailScreen.css';
 
 class DetailScreen extends React.Component {
     state = {
-        addCommentModal:'none', DeleteModalIs:'none'
+        addCommentModal: 'none', DeleteModalIs: 'none', detalleDeApiario: {}
     }
 
-    openDeleteModal = () =>{
-        this.setState({DeleteModalIs:'inline'})
+    getApiariesList = async () => {
+        const res = await fetchDetailApiario();
+        this.setState({ detalleDeApiario: res.data });
+        console.log(this.state.detalleDeApiario.observations);
+    }
+    
+    componentDidMount() {
+        this.getApiariesList();
     }
 
-    closeDeleteModal = () =>{
-        this.setState({DeleteModalIs:'none'})
+    openDeleteModal = () => {
+        this.setState({ DeleteModalIs: 'inline' })
+    }
+
+    closeDeleteModal = () => {
+        this.setState({ DeleteModalIs: 'none' })
     }
 
     render() {
         return (
             <div className="detailScreen">
-                <TopBarDS/>
+                <TopBarDS apiarioName={this.state.detalleDeApiario.name} status={this.state.detalleDeApiario.current_status} />
                 <Peso />
-                <HumTemp />
-                <CantidadYPorcentaje />
-                <Notes openDeleteModal={this.openDeleteModal}/>
-                <DeleteCommentModalScreen DeleteModalIs={this.state.DeleteModalIs} CloseDeleteModal={this.closeDeleteModal}/>
+                <HumTemp humedad={this.state.detalleDeApiario.average_humidity} temperatura={this.state.detalleDeApiario.average_temperature} />
+                <CantidadYPorcentaje colmenas={this.state.detalleDeApiario.beehives_count} colmenasConectadas={this.state.detalleDeApiario.beehoney_count} />
+                <Notes openDeleteModal={this.openDeleteModal} notes= {this.state.detalleDeApiario.observations} />
+                <DeleteCommentModalScreen DeleteModalIs={this.state.DeleteModalIs} CloseDeleteModal={this.closeDeleteModal} />
             </div>
         )
     }

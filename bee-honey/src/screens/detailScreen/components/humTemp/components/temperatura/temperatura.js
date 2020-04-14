@@ -4,11 +4,11 @@ import Img from './components/img/img.js';
 import Text from './components/text/text.js';
 import Peso from './components/temperatura/temperatura.js';
 
-function PesoCosecha() {
+function PesoCosecha(props) {
     return (
         <div className="pesoCosecha">
             <Img />
-            <Peso />
+            <Peso temperatura={props.temperatura} />
             <Text />
         </div>
     )

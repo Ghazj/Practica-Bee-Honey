@@ -5,21 +5,14 @@ import Login from './screens/Login/login.js';
 import PantallaPrincipal from './screens/principalScreen/pantallaPrincipal.js';
 import DetailScreen from './screens/detailScreen/detailScreen.js';
 ///////////////////////////////////////
-import { fetchApario } from './services/apiariosService.js';
 
 class Main extends React.Component {
   state = {
-    ListadoDeApiarios: {},
+    idApiarioSeleccionado: 0
   }
 
-  getApiariesList = async () => {
-    const res = await fetchApario();
-    this.setState({ ListadoDeApiarios: res.data})
-    console.log(this.state.ListadoDeApiarios);
-  }
+  clickApiario(apiarioid) {
 
-  componentDidMount() {
-    this.getApiariesList();
   }
 
   render() {
@@ -30,7 +23,7 @@ class Main extends React.Component {
             <Login />
           </Route>
           <Route path="/principalScreen">
-            <PantallaPrincipal ListadoDeApiarios={this.state.ListadoDeApiarios}  />
+            <PantallaPrincipal ListadoDeApiarios={this.state.ListadoDeApiarios} />
           </Route>
           <Route path="/detailScreen">
             <DetailScreen />
