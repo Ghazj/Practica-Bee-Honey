@@ -7,26 +7,26 @@ import './pantallaPrincipal.css';
 
 class PantallaPrincipal extends React.Component {
     state = {
-        SideBarIs: 'none'
+        SideBarIs: 'close'
     }
 
-    openSideBar = () => {
-        if (this.state.SideBarIs === 'none') {
-            this.setState({ SideBarIs: 'inline' })
+    handleSideBar = () => {
+        if (this.state.SideBarIs === 'close') {
+            this.setState({ SideBarIs: 'open' })
         } else {
-            this.setState({ SideBarIs: 'none' })
+            let sideBar = document.getElementById('sideBar');
+            sideBar.classList.add('closing');
+            setTimeout(() => {
+                this.setState({ SideBarIs: 'close' });
+            }, 1000);
         }
-    }
-
-    hideSideBar = () => {
-        this.setState({ SideBarIs: 'none' })
     }
 
     render() {
         return (
             <div className="principalScreen">
-                <TopBar OpenSideBar={this.openSideBar} />
-                <SideBar SideBarIs={this.state.SideBarIs} HideSideBar={this.hideSideBar} />
+                <TopBar handleSideBar={this.handleSideBar} />
+                <SideBar SideBarIs={this.state.SideBarIs} handleSideBar={this.handleSideBar} />
                 <Listado ListadoDeApiarios={this.props.ListadoDeApiarios} />
             </div>
         );

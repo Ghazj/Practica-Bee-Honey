@@ -17,6 +17,7 @@
 }
   
 .form-input {
+    border: 0;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -29,8 +30,9 @@
 .buttonLogin {
     width: 80%;
     height: 35px;
-    background-color: rgb(0, 89, 255);
-    color: white;
+    background-color: rgba(229, 255, 0, 0.808);
+    color: #000000;
+    border: 0;
 }
 
 .terminos{
@@ -43,8 +45,8 @@
 }
   
 .login {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-color: transparent;
     display: flex;
    justify-content: center;

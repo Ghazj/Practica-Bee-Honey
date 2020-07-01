@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import './sideBar.css';
 
 const SideBar = props => (
-    <div className="sideBar" style={{ display: props.SideBarIs }}>
+    <div id="sideBar" className={props.SideBarIs}>
         <ul className="ul">
-            <button className="buttonSideBar" onClick={props.HideSideBar}>Ocultar</button>
+            <button id="btnSideBar" className="buttonSideBar" onClick={props.handleSideBar}>Ocultar</button>
         </ul>
         <ul className="ul">
             <Link to="/"><button className="buttonSideBar">Cerrar sesión</button></Link>
