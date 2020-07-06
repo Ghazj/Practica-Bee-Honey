@@ -17,7 +17,7 @@ class Main extends React.Component {
 
   render() {
     return (
-      <div>
+      <>
         <Switch>
           <Route exact path="/">
             <Login />
@@ -29,7 +29,7 @@ class Main extends React.Component {
             <DetailScreen />
           </Route>
         </Switch>
-      </div>
+      </>
     )
   }
 }

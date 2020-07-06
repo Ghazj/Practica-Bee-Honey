@@ -1,29 +1,29 @@
-.apiario{
+.apiario {
     position: relative;
     display: flex;
     flex-direction: column;
     width: 141px;
     height: 120px;
-    background-color: #9e7262;
+    background-color: #e2d38e;
     margin-top: 12.6px;
     padding: 10px;
+    transition: all .2s ease;
 }
 
-.apiario:active{
-    background-color: #c89933;
-    width: 145px;
-    height: 125px;
-
+.apiario:hover {
+    background-color: #c59b40;
+    box-shadow: 4px 4px 10px black;
+    transform: scale(1.1);
 }
 
-.name{
+.name {
     text-align: left;
     font-size: 16px;
     font-weight: 400;
     height: 10px;
 }
 
-.contenedorNoName{
+.contenedorNoName {
     height: 100%;
     position: relative;
     margin-top: 40%;
@@ -34,7 +34,7 @@
     justify-content: space-between;
 }
 
-.lastAct{
+.lastAct {
     position: absolute;
     top: 30%;
     right: 50%;
@@ -42,29 +42,28 @@
     align-self: flex-end;
 }
 
-.status{
-}
+.status {}
 
-.refreshLogo{
+.refreshLogo {
     align-self: flex-end;
     width: 18px;
     height: 16px;
     rotate: 50%;
 }
 
-.okLogo{
+.okLogo {
     align-self: flex-end;
     width: 18px;
     height: 16px;
 }
 
-.cautionLogo{
+.cautionLogo {
     align-self: flex-end;
     width: 18px;
     height: 16px;
 }
 
-.link{
+.link {
     position: absolute;
     top: 0;
     left: 0;

@@ -30,7 +30,7 @@
 .buttonLogin {
     width: 80%;
     height: 35px;
-    background-color: rgba(35, 35, 252, 0.753);
+    background-color: #c79529;
     color: #000000;
     border: 0;
     border-radius: 25px;
@@ -60,7 +60,6 @@
     height: 55%;
     padding-top: 5%;
     padding-bottom: 5%;
-    border: 4px solid #c89933;
 }
 
 .logoLogin {
@@ -78,7 +77,8 @@
 }
 
 .buttonLogin:hover {
-    background-color: #c89933;
+    background-color: #c79e46;
+    cursor: pointer;
 }
 
 .terminosEnlace:hover {
