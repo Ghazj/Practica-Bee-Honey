@@ -39,7 +39,7 @@ class DetailScreen extends React.Component {
                 <HumTemp humedad={this.state.detalleDeApiario.average_humidity} temperatura={this.state.detalleDeApiario.average_temperature} />
                 <CantidadYPorcentaje colmenas={this.state.detalleDeApiario.beehives_count} colmenasConectadas={this.state.detalleDeApiario.beehoney_count} />
                 <Notes openDeleteModal={this.openDeleteModal} notes={this.state.detalleDeApiario.observations} />
-                <DeleteCommentModalScreen DeleteModalIs={this.state.DeleteModalIs} CloseDeleteModal={this.closeDeleteModal} />
+                {/* <DeleteCommentModalScreen DeleteModalIs={this.state.DeleteModalIs} CloseDeleteModal={this.closeDeleteModal} /> */}
             </div>
         )
     }

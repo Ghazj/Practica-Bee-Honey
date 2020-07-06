@@ -6,7 +6,7 @@
     align-items: center;
     height: 55px;  
     width: 100%;
-    background-color: rgb(209, 209, 209);
+    background-color: #9e7262;
 }
 
 .barraDeBusqueda{
@@ -14,6 +14,6 @@
     left: 25%;
     background-color:white;   
     width: 50%;    
-    height: 30%;
+    height: 25px;
     border: 1px transparent;
 }

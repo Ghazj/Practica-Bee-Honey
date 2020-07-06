@@ -4,9 +4,16 @@
     flex-direction: column;
     width: 141px;
     height: 120px;
-    background-color: rgb(209, 209, 209);
+    background-color: #9e7262;
     margin-top: 12.6px;
     padding: 10px;
+}
+
+.apiario:active{
+    background-color: #c89933;
+    width: 145px;
+    height: 125px;
+
 }
 
 .name{

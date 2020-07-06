@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from './Bee Honey Big Logo.png';
+import Logo from './bee-honey-logo-Bg-transparent.png';
 
 let BeeHoneyLogo = (props) => {
     return <img alt="Logo de bee honey" src={Logo} style={props.styles}/>

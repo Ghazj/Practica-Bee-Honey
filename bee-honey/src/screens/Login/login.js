@@ -10,8 +10,7 @@ function Login() {
   return (
     <div className="login">
       <div className="loginContent">
-        <BeeHoneyLogo styles={{ width: "165px", marginTop: "8%"}}/>
-        <Tittle />
+        <BeeHoneyLogo styles={{ width: "100%", height: "auto" }} />
         <Form />
         <Button />
         <Terminos />

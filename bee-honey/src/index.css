@@ -1,12 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=CircularStd+Book");
-
-html {
-  height: 100%;
-}
-
 body {
-  font-family: "CircularStd-Book", cursive;
-  background-color: #d1d1d1;
+  font-family: 'Merriweather', serif;
+  background-color: #9e7262;
   margin: 0;
   padding: 0;
   height: 100%;
