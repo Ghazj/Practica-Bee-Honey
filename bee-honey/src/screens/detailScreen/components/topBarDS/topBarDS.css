@@ -1,0 +1,58 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.topBarButtonContent{
+    width: 8%;
+}
+
+.topBarInfoContent{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tittleContent{}
+
+.infoContentDS{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
+    margin-left: 3.5%;
+}
+
+.tittleDS{
+    text-align: left;
+    margin: 0;
+    margin-left: 7%;
+}
+
+.pes{
+    margin: 0;
+    margin-left: 10px;
+}
+
+.refreshLogoDS{
+    width: 18px;
+    height: 16px;
+    rotate: 50%;
+}
+
+.statusLogoDS{
+    width: 18px;
+    height: 16px;
+}
+
+.linkTopBarDetailScreen{
+}
+
+.buttonTopBarDS{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+}

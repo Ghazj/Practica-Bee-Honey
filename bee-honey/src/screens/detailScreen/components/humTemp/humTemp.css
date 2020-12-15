@@ -1,0 +1,14 @@
+.humTemp{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+    background-color: #e2d38e;
+}
+
+.humTemps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

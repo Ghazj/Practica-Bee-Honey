@@ -1,0 +1,73 @@
+.apiario {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 141px;
+    height: 120px;
+    background-color: #e2d38e;
+    margin-top: 12.6px;
+    padding: 10px;
+    transition: all .2s ease;
+}
+
+.apiario:hover {
+    background-color: #c59b40;
+    box-shadow: 4px 4px 10px black;
+    transform: scale(1.1);
+}
+
+.name {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    height: 10px;
+}
+
+.contenedorNoName {
+    height: 100%;
+    position: relative;
+    margin-top: 40%;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.lastAct {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    font-size: 9px;
+    align-self: flex-end;
+}
+
+.status {}
+
+.refreshLogo {
+    align-self: flex-end;
+    width: 18px;
+    height: 16px;
+    rotate: 50%;
+}
+
+.okLogo {
+    align-self: flex-end;
+    width: 18px;
+    height: 16px;
+}
+
+.cautionLogo {
+    align-self: flex-end;
+    width: 18px;
+    height: 16px;
+}
+
+.link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: +1;
+    width: 100%;
+    height: 100%;
+}

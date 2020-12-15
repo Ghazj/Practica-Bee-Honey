@@ -1,0 +1,75 @@
+#sideBarId{
+  display: none;
+}
+
+.open{
+    position: absolute;
+    left: 0;
+    z-index: +2;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.856);
+    height: 100vh;
+    animation-duration: 1s;
+    animation-name: sideBarOpen;
+    text-align: left;
+}
+
+.close{
+  display: none;
+}
+
+.closing{
+  animation-duration: 1s;
+  animation-name: sideBarClose, buttonsClose;
+}
+
+.buttonSideBar{
+    width: 80%;
+    animation-duration: 1s;
+    animation-name: buttonsOpen;
+    animation-direction: alternate;
+}
+
+.ul{
+  padding-left: 17%;
+}
+
+@keyframes sideBarOpen{
+  from {
+    height: 0%
+  }
+
+  to {
+    height: 100vh;
+  }
+}
+
+@keyframes buttonsOpen{
+    from { 
+        opacity: 0%;
+    }
+  
+    to {
+      opacity: 100%;
+    }
+  }
+  
+  @keyframes sideBarClose{
+    from {
+      height: 100vh
+    }
+  
+    to {
+      height: 0;
+    }
+  }
+  
+  @keyframes buttonsClose{
+      from { 
+          opacity: 100%;
+      }
+    
+      to {
+        opacity: 0%;
+      }
+    }

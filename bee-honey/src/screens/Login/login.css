@@ -1,0 +1,86 @@
+.tittleLogin {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: space-around;
+    margin: 0;
+    margin-bottom: 25px;
+    color: rgb(34, 34, 34);
+}
+
+.formLogin {
+    flex-wrap: wrap;
+    margin: 5px;
+}
+
+.form-input {
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+}
+
+.buttonLogin {
+    width: 80%;
+    height: 35px;
+    background-color: #c79529;
+    color: #000000;
+    border: 0;
+    border-radius: 25px;
+}
+
+.terminos {
+    font-size: 10px;
+}
+
+.terminosEnlace {
+    font-size: 10px;
+    color: blue;
+}
+
+.login {
+    padding-top: 10%;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+.loginContent {
+    background-color: #e2d38e;
+    width: 90%;
+    height: 55%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.logoLogin {
+    width: 100%;
+    height: auto;
+}
+
+.inputs {
+    border: 0;
+    width: 80%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px solid #c89933;
+}
+
+.buttonLogin:hover {
+    background-color: #c79e46;
+    cursor: pointer;
+}
+
+.terminosEnlace:hover {
+    color: #c89933;
+}
